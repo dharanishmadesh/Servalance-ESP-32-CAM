@@ -9,8 +9,8 @@
 #include "SparkFunBME280.h"
 
 // Replace with your network credentials
-const char* ssid = "SHARP";
-const char* password = "shakthi09";
+const char* ssid = "wifi name ";
+const char* password = "pass key";
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
@@ -18,7 +18,7 @@ const char* password = "shakthi09";
 String chatId = "5427848537";
 
 // Initialize Telegram BOT
-String BOTtoken = "7511733881:AAEXC_MYagXujE46S6ZF3guwpsrPuHjNCc0";
+String BOTtoken = "";
 
 bool sendPhoto = false;
 
